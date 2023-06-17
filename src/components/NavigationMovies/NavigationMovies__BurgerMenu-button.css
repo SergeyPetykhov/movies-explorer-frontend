@@ -1,0 +1,15 @@
+.NavigationMovies__BurgerMenu-button {
+  transition: opacity 0.5s;
+  display: none;
+}
+
+.NavigationMovies__BurgerMenu-button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 840px) {
+  .NavigationMovies__BurgerMenu-button {
+    display: initial;
+  }
+}

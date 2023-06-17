@@ -1,0 +1,16 @@
+.Portfolio__element {
+  margin-bottom: 20px;
+	border-bottom: 1px solid rgba(66, 66, 66, 1);
+  display: flex;
+  justify-content: space-between;
+  transition: opacity 0.5s;
+}
+
+.Portfolio__element:last-child {
+  margin-bottom: 0;
+}
+
+.Portfolio__element:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}

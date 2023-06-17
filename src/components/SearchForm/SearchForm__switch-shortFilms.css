@@ -1,0 +1,14 @@
+.SearchForm__switch-shortFilms {
+  position: absolute; 
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background: url(../../images/smalltumboff.svg) no-repeat; 
+}
+
+.SearchForm__checkbox-shortFilms:checked + .SearchForm__switch-shortFilms {
+  background: url(../../images/smalltumb.svg) no-repeat;  
+}
+
+.SearchForm__switch-shortFilms:hover {
+  cursor: pointer;
+}

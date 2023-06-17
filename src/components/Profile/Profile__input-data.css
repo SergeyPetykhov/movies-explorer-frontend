@@ -1,0 +1,5 @@
+.Profile__input-data {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}

@@ -1,0 +1,19 @@
+.Promo {
+  margin: 0 40px;
+  padding: 0 0 30px;
+  background:rgba(39, 39, 39, 1);
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .Promo {
+    margin: 0 20px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .Promo {
+    margin: 0 14px;
+    padding: 0 0 17px;
+  }
+}

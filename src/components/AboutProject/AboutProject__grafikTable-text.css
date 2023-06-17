@@ -1,0 +1,15 @@
+.AboutProject__grafikTable-text {
+  margin: 14px 0 0;
+  color:rgba(139, 139, 139, 1);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.21;
+}
+
+@media screen and (max-width: 740px) {
+  .AboutProject__grafikTable-text {
+    font-size: 11px;
+    line-height: 1.18;
+  }
+}
+

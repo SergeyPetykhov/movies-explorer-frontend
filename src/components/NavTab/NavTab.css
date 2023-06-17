@@ -1,0 +1,15 @@
+.NavTab {
+  margin-top: 151px;
+}
+
+@media screen and (max-width: 1024px) {
+  .NavTab {
+    margin-top: 314px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .NavTab {
+    margin-top: 217px;
+  }
+}

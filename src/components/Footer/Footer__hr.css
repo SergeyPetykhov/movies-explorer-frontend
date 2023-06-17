@@ -1,0 +1,13 @@
+.Footer__hr {
+  margin: 20px 70px 0 70px;
+  padding: 0;
+	height: 0;
+	border: none;
+	border-top: 1px solid rgba(66, 66, 66, 1);
+}
+
+@media screen and (max-width: 680px) {
+  .Footer__hr {
+		margin: 20px 10px 0 10px;
+  }
+}

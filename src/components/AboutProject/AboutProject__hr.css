@@ -1,0 +1,9 @@
+.AboutProject__hr {
+  margin: 23px 0 0;
+  padding: 0;
+	height: 0;
+	border: none;
+	border-top: 2px solid rgba(218, 218, 218, 1);
+}
+
+

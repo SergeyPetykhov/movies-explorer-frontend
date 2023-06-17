@@ -1,0 +1,12 @@
+.MoviesCard__image{
+  margin-top: 14px;
+  max-height: 203px;
+  width: 100%;
+ object-fit: contain;
+ transition: opacity 0.5s;
+}
+
+.MoviesCard__image:hover  {
+  opacity: 0.7;
+  cursor: pointer;
+}
