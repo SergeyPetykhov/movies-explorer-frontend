@@ -4,3 +4,11 @@
   font-size: 13px;
   line-height: 1.38;
 }
+
+@media screen and (max-width: 480px) {
+  .SearchForm__text-shortFilms {
+    margin: 0;
+    font-size: 11px;
+    line-height: 1.64;
+  }
+}

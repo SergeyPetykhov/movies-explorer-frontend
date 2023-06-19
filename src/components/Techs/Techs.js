@@ -2,7 +2,6 @@ import React from 'react';
 
 import './Techs.css';
 import './Techs__title.css';
-import './Techs__hr.css';
 import './Techs__subTitle.css';
 import './Techs__text.css';
 import './Techs__table.css';
@@ -13,7 +12,6 @@ function Techs() {
   return (
     <section className="Techs" id="Techs">
       <h2 className="Techs__title">Технологии</h2>
-      <hr className="Techs__hr"></hr>
       <h3 className="Techs__subTitle">7 технологий</h3>
       <p className="Techs__text">На&nbsp;курсе веб-разработки мы&nbsp;освоили технологии, которые применили в&nbsp;дипломном проекте.</p>
 

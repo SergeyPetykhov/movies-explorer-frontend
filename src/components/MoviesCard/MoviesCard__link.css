@@ -1,0 +1,8 @@
+.MoviesCard__link {
+  transition: opacity 0.5s;
+}
+
+.MoviesCard__link:hover  {
+  opacity: 0.7;
+  cursor: pointer;
+}

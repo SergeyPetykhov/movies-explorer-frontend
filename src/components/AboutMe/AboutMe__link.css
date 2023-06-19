@@ -1,6 +1,6 @@
 .AboutMe__link {
   display: inline-block;
-  margin: 99px 0 0;
+  margin: 79px 0 0;
   color:rgba(255, 255, 255, 1);
   font-weight: 400;
   font-size: 14px;
@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 1024px) {
   .AboutMe__link {
-    margin: 87px 0 0;
+    margin: 65px 0 0;
   }
 }
 

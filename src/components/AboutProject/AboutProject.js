@@ -2,12 +2,10 @@ import React from 'react';
 
 import './AboutProject.css'
 import './AboutProject__title.css'
-import './AboutProject__hr.css'
 import './AboutProject__infoTable.css'
 import './AboutProject__infoTable-cell.css'
 import './AboutProject__infoTable-title.css'
 import './AboutProject__infoTable-text.css'
-
 import './AboutProject__grafikTable.css'
 import './AboutProject__grafikTable-cell.css'
 import './AboutProject__grafikTable-title.css'
@@ -18,16 +16,15 @@ function AboutProject() {
   return (
     <section className="AboutProject" id="AboutProject">
       <h2 className="AboutProject__title">О проекте</h2>
-      <hr className="AboutProject__hr"></hr>
-
+  
       {/* таблица с информацией о проекте */}
       <ul className="AboutProject__infoTable">
         <li className="AboutProject__infoTable-cell">
-          <p className="AboutProject__infoTable-title">Дипломный проект включал 5 этапов</p>
+          <h3 className="AboutProject__infoTable-title">Дипломный проект включал 5 этапов</h3>
           <p className="AboutProject__infoTable-text">Составление плана, работу над бэкендом, вёрстку, добавление функциональности и финальные доработки.</p>
         </li>
         <li className="AboutProject__infoTable-cell">
-          <p className="AboutProject__infoTable-title">На выполнение диплома ушло 5 недель</p>
+          <h3 className="AboutProject__infoTable-title">На выполнение диплома ушло 5 недель</h3>
           <p className="AboutProject__infoTable-text">У каждого этапа был мягкий и жёсткий дедлайн, которые нужно было соблюдать, чтобы успешно защититься.</p>
         </li>
       </ul>

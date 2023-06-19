@@ -44,7 +44,9 @@ function App() {
         />
         <Route
           path="/profile"
-          element={<Profile />}
+          element={<Profile
+            onBurgerMenu={handleBurgerMenuClick}
+          />}
         />
         <Route
           path="/signup"

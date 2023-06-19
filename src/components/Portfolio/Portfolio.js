@@ -5,9 +5,9 @@ import './Portfolio.css';
 import './Portfolio__title.css';
 import './Portfolio__list.css';
 import './Portfolio__element.css';
+import './Portfolio__link.css';
 import './Portfolio__link-text.css';
 import './Portfolio__link-arrow.css';
-
 
 function Portfolio() {
   return (
@@ -16,17 +16,32 @@ function Portfolio() {
 
       {/* таблица с информацией об используемых технологиях */}
       <ul className="Portfolio__list">
-        <li className="Portfolio__element" onClick={() => window.open('https://github.com/SergeyPetykhov/how-to-learn')}>
-          <p className="Portfolio__link-text">Статичный сайт</p>
-          <img className="Portfolio__link-arrow" src={arrow} alt="Логотип" />
+        <li className="Portfolio__element">
+          <a className="Portfolio__link"
+            href="https://github.com/SergeyPetykhov/how-to-learn"
+            target="_blank"
+            rel="noreferrer">
+            <p className="Portfolio__link-text">Статичный сайт</p>
+            <img className="Portfolio__link-arrow" src={arrow} alt="Стрелка" />
+          </a>
         </li>
-        <li className="Portfolio__element" onClick={() => window.open('https://github.com/SergeyPetykhov/russian-travel')}>
-          <p className="Portfolio__link-text">Адаптивный сайт</p>
-          <img className="Portfolio__link-arrow" src={arrow} alt="Логотип" />
+        <li className="Portfolio__element">
+          <a className="Portfolio__link"
+            href="https://github.com/SergeyPetykhov/russian-travel"
+            target="_blank"
+            rel="noreferrer">
+            <p className="Portfolio__link-text">Адаптивный сайт</p>
+            <img className="Portfolio__link-arrow" src={arrow} alt="Стрелка" />
+          </a>
         </li>
-        <li className="Portfolio__element" onClick={() => window.open('https://github.com/SergeyPetykhov/react-mesto-api-full-gha')}>
-          <p className="Portfolio__link-text">Одностраничное приложение</p>
-          <img className="Portfolio__link-arrow" src={arrow} alt="Логотип" />
+        <li className="Portfolio__element">
+          <a className="Portfolio__link"
+            href="https://github.com/SergeyPetykhov/react-mesto-api-full-gha"
+            target="_blank"
+            rel="noreferrer">
+            <p className="Portfolio__link-text">Одностраничное приложение</p>
+            <img className="Portfolio__link-arrow" src={arrow} alt="Стрелка" />
+          </a>
         </li>
       </ul>
     </section>

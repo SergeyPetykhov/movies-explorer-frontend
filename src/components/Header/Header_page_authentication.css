@@ -1,6 +1,6 @@
 .Header_page_authentication {
   margin: 70px auto 0;
-  max-width: 396px;
+  width: 396px;
   min-height: auto;
 }
 
@@ -12,6 +12,7 @@
 
 @media screen and (max-width: 680px) {
   .Header_page_authentication {
+    width: 320px;
     margin: 56px auto 0;
     display: flex;
     justify-content: center;

@@ -10,8 +10,8 @@
   border-radius: 3px;
   color: #fff;
   font-weight: 500;
-  font-size: 12px;
-  line-height: 1.33;
+  font-size: 14px;
+  line-height: 1.21;
   transition: opacity 0.5s;
 }
 
@@ -22,8 +22,10 @@
 
 @media screen and (max-width: 680px) {
   .Register__save-button {
-    margin: 172px 0 0;
+    margin: 157px 0 0;
     width: 260px;
+    font-size: 12px;
+    line-height: 1.25;
   }
 }
 

@@ -1,7 +1,7 @@
 .Portfolio__link-arrow {
   width: 29px;
   height: 60px;
-  object-fit: contain;
+  object-fit: scale-down;
 }
 
 @media screen and (max-width: 1024px) {
@@ -12,7 +12,7 @@
 
 @media screen and (max-width: 680px) {
   .Portfolio__link-arrow {
-    width: 18px;
+    width: 10px;
     height: 28px;
   }
 }

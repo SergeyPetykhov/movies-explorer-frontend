@@ -6,3 +6,9 @@
 
 /***** page *****/
 @import url('./styles/page/page.css');
+
+/***** root *****/
+@import url('./styles/root/root.css');
+
+
+/* * { outline: 1px solid yellow; } */

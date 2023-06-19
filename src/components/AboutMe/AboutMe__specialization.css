@@ -6,6 +6,13 @@
   line-height: 1.11;
 }
 
+@media screen and (max-width: 1024px) {
+  .AboutMe__specialization {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+}
+
 @media screen and (max-width: 680px) {
   .AboutMe__specialization {
     font-size: 11px;

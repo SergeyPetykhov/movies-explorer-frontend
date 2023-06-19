@@ -1,4 +1,7 @@
 .Profile__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin: 123px 0 220px;
 }
 

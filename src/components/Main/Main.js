@@ -16,12 +16,14 @@ function Main() {
         classNameLogo="Header__logo"
         Navigation={Navigation}
       />
-      <section className="Main">
-        <Promo />
-        <AboutProject />
-        <Techs />
-        <AboutMe />
-      </section>
+      <main className='content'>
+        <section className="Main">
+          <Promo />
+          <AboutProject />
+          <Techs />
+          <AboutMe />
+        </section>
+      </main>
       <Footer />
     </>
   )

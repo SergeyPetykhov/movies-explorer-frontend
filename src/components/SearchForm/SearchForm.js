@@ -2,7 +2,6 @@ import React from 'react';
 import searchIcon from "../../images/saerchIcon.svg";
 
 import './SearchForm.css';
-import './SearchForm__hr.css';
 import './SearchForm__form.css';
 import './SearchForm__container.css';
 import './SearchForm__search-icon.css';
@@ -20,7 +19,7 @@ function SearchForm() {
       {/* форма поиска фильмов */}
       <form className="SearchForm__form" name="searchForm" onSubmit={() => console.log("Submit")}>
         <div className="SearchForm__container">
-          <img className="SearchForm__search-icon" src={searchIcon} alt="Логотип" />
+          <img className="SearchForm__search-icon" src={searchIcon} alt="Лупа" />
           <input
             type="text"
             className="SearchForm__input-movie"
@@ -28,6 +27,7 @@ function SearchForm() {
             name="movie"
             placeholder="Фильм"
             required
+            minLength="1"
             onChange={() => console.log("!")} />
           <input type="submit" className="SearchForm__search-button" value="" />
         </div>
@@ -37,7 +37,6 @@ function SearchForm() {
           <p className="SearchForm__text-shortFilms">Короткометражки</p>
         </div>
       </form>
-      <hr className="SearchForm__hr"></hr>
     </section>
   )
 }

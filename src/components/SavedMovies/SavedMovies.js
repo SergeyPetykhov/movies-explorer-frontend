@@ -1,9 +1,10 @@
 import React from 'react';
 
 import Header from '../Header/Header';
-import NavigationMovies from '../NavigationMovies/NavigationMovies.js';
+import NavigationSite from '../NavigationSite/NavigationSite.js';
 import MoviesCardList from '../MoviesCardList/MoviesCardList.js';
 import SearchForm from '../SearchForm/SearchForm.js';
+import More from '../More/More.js';
 import Footer from '../Footer/Footer';
 
 function SavedMovies({ onBurgerMenu }) {
@@ -12,13 +13,16 @@ function SavedMovies({ onBurgerMenu }) {
       <Header
         classNameHeader="Header"
         classNameLogo="Header__logo"
-        Navigation={NavigationMovies}
+        Navigation={NavigationSite}
         onBurgerMenu={onBurgerMenu}
       />
-      <section className="SavedMovies">
-        <SearchForm />
-        <MoviesCardList />
-      </section>
+      <main className='content'>
+        <section className="SavedMovies">
+          <SearchForm />
+          <MoviesCardList />
+          <More />
+        </section>
+      </main>
       <Footer />
     </>
   )

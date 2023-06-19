@@ -5,8 +5,15 @@
   flex-direction: column;
 }
 
+@media screen and (max-width: 1024px) {
+  .Profile__container {
+    margin: 236px auto 0;
+  }
+}
+
 @media screen and (max-width: 680px) {
   .Profile__container {
+    margin: 70px auto 0;
     width: 260px;
   }
 }

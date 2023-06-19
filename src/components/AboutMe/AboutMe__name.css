@@ -7,9 +7,16 @@
   letter-spacing: -0.04em;
 }
 
+@media screen and (max-width: 1024px) {
+  .AboutMe__name {
+    font-size: 40px;
+    line-height: 1;
+  }
+}
+
 @media screen and (max-width: 680px) {
   .AboutMe__name {
-    margin: 60px 0 0;
+    margin: 40px 0 0;
     font-size: 36px;
     line-height: 1.20;
   }

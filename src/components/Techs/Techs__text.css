@@ -9,6 +9,14 @@
   letter-spacing: -0.04em;
 }
 
+@media screen and (max-width: 1024px) {
+  .Techs__text {
+    margin: 22px auto 0;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+}
+
 @media screen and (max-width: 680px) {
   .Techs__text {
     margin: 24px auto 0;
