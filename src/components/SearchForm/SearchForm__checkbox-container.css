@@ -8,6 +8,7 @@
 
 @media screen and (max-width: 1024px) {
   .SearchForm__checkbox-container {
+    margin: 0 20px 0 0;
     border-left: 1px solid rgba(66, 66, 66, 1);
   }
 }

@@ -1,4 +1,6 @@
 .MoviesCard__link {
+  display: block;
+  margin-top: 14px;
   transition: opacity 0.5s;
 }
 

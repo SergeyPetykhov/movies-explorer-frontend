@@ -6,3 +6,9 @@
   align-items: center;
   list-style: none;
 }
+
+@media screen and (max-width: 680px) {
+  .BurgerMenuPopUp__list {
+    margin: 144px 0 0 0;
+  }
+}

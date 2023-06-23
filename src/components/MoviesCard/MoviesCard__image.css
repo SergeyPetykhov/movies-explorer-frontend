@@ -1,6 +1,7 @@
 .MoviesCard__image{
-  margin-top: 14px;
+  display: block;
+  margin: 0 auto 0;
   max-height: 203px;
-  width: 100%;
+  max-width: 100%;
   object-fit: contain;
 }

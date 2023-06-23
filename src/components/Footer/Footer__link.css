@@ -13,3 +13,10 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 680px) {
+  .Footer__link {
+    font-size: 12px;
+    line-height: 1.2;
+  }
+}
+

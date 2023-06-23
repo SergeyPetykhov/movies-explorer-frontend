@@ -6,13 +6,13 @@
 @media screen and (max-width: 1024px) {
   .MoviesCardList {
     margin: 0 30px;
-    padding: 80px 0px 10px;
+    padding: 80px 0px 30px;
   }
 }
 
 @media screen and (max-width: 680px) {
   .MoviesCardList {
     margin: 0 10px;
-    padding: 40px 0px 10px;
+    padding: 50px 0px 30px;
   }
 }

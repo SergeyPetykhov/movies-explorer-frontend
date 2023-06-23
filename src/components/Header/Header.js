@@ -14,7 +14,7 @@ function Header({ classNameHeader, classNameLogo, Navigation, onBurgerMenu }) {
       <a className={classNameLogo}
         href="/"
         rel="noreferrer">
-        <img className="Header__logo" src={headerLogo} alt="Логотип" />
+        <img className="Header__logo-image" src={headerLogo} alt="Логотип" />
       </a>
       {Navigation && <Navigation onBurgerMenu={onBurgerMenu} />}
     </header>

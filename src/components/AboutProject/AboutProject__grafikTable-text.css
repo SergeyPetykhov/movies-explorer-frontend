@@ -8,6 +8,7 @@
 
 @media screen and (max-width: 740px) {
   .AboutProject__grafikTable-text {
+    margin: 11px 0 0;
     font-size: 11px;
     line-height: 1.18;
   }

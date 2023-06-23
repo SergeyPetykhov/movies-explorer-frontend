@@ -6,6 +6,12 @@
   list-style: none;
 }
 
+@media screen and (max-width: 1024px) {
+  .Footer__list {
+    margin-right: 30px;
+  }
+}
+
 @media screen and (max-width: 680px) {
   .Footer__list {
     flex-direction: column;

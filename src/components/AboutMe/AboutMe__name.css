@@ -17,7 +17,7 @@
 @media screen and (max-width: 680px) {
   .AboutMe__name {
     margin: 40px 0 0;
-    font-size: 36px;
+    font-size: 30px;
     line-height: 1.20;
   }
 }

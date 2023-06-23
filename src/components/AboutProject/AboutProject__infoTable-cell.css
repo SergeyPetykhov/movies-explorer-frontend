@@ -15,7 +15,7 @@
   }
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 767px) {
   .AboutProject__infoTable-cell {
     min-width: 284px;
     margin-right: 0px;
