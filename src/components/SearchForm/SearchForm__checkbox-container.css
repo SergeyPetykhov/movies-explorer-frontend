@@ -1,0 +1,21 @@
+.SearchForm__checkbox-container {
+  margin: 0 30px 0 0;
+  display: flex;
+  align-items: center;
+  min-height: 40px;
+  border-left: 2px solid rgba(66, 66, 66, 1);
+}
+
+@media screen and (max-width: 1024px) {
+  .SearchForm__checkbox-container {
+    margin: 0 20px 0 0;
+    border-left: 1px solid rgba(66, 66, 66, 1);
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .SearchForm__checkbox-container {
+    margin: 35px auto 0;
+    border: none;
+  }
+}

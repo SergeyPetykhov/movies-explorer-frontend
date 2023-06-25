@@ -1,0 +1,14 @@
+/***** normalize *****/
+@import url('./vendor/normalize.css');
+
+/***** fonts *****/
+@import url('./vendor/fonts/fonts.css');
+
+/***** page *****/
+@import url('./styles/page/page.css');
+
+/***** root *****/
+@import url('./styles/root/root.css');
+
+
+/* * { outline: 1px solid yellow; } */

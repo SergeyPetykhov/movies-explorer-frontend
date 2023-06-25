@@ -1,0 +1,14 @@
+.SearchForm__search-icon {
+  margin: 0 0 0 19px;
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 680px) {
+  .SearchForm__search-icon {
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+  }
+}
