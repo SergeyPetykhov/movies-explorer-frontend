@@ -6,9 +6,9 @@
   transition: opacity 0.5s;
 }
 
-.SearchForm__checkbox-shortFilms:checked + .SearchForm__switch-shortFilms {
+/* .SearchForm__checkbox-shortFilms:checked + .SearchForm__switch-shortFilms {
   background: url(../../images/smalltumb.svg) no-repeat;  
-}
+} */
 
 .SearchForm__switch-shortFilms:hover {
   opacity: 0.8;

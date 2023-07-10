@@ -3,17 +3,20 @@
   position: relative;
   max-width: 364px;
   width: 100%;
+  min-height: 271px;
   background-color: rgba(34, 34, 34, 1);
 }
 
 @media screen and (max-width: 1279px) {
   .MoviesCard {
-    width: 100%;;
+    width: 100%;
+    min-height: 258px;
   }
 }
 
 @media screen and (max-width: 680px) {
   .MoviesCard {
     width: 100%;
+    min-height: 236px;
   }
 }
