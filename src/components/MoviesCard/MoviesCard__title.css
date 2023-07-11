@@ -1,7 +1,11 @@
 .MoviesCard__title {
+  max-width: 294px;
   margin: 0;
   color: #fff;
   font-weight: 500;
   font-size: 15px;
   line-height: 1.2;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }

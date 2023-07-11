@@ -1,8 +1,9 @@
 .Profile__input-data {
  display: flex;
+ flex-wrap: wrap;
  justify-content: space-between;
  align-items: center;
- padding: 0 0 16px;
+ padding: 0 0 4px;
  border-bottom: 1px solid rgba(66, 66, 66, 1);
 }
 
